@@ -22,11 +22,11 @@ export default {
 <template>
   <div class="atom-panel atom-panel--left left" id="fullPageDiv">
     <nav class="atom-toolbar atom-toolbar-vertical expanded">
-      <a href="/gaussElimination" class="btn btn-default">
+      <a href="https://numerical-methods-frontend.vercel.app/gaussElimination" class="btn btn-default">
         <span class="octicon octicon-dashboard"></span>
         <span class="title">Gauss Elimination</span>
       </a>
-      <a href="/gaussJordan" class="btn btn-default">
+      <a href="https://numerical-methods-frontend.vercel.app/gaussJordan" class="btn btn-default">
         <span class="octicon octicon-beaker"></span>
         <span class="title">Gauss-Jordan</span>
       </a>

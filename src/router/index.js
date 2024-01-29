@@ -4,14 +4,13 @@ import { createRouter, createWebHistory } from "vue-router";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-   
     {
-      path: "/gaussElimination",
+      path: "https://numerical-methods-frontend.vercel.app/gaussElimination",
       name: "gaussElimination",
       component: () => import("../components/methods/GaussElimination.vue"),
     },
     {
-      path: "/gaussJordan",
+      path: "https://numerical-methods-frontend.vercel.app/gaussJordan",
       name: "gaussJordan",
 
       component: () => import("../components/methods/Gauss-Jordan.vue"),

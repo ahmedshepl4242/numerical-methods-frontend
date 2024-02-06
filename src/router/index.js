@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+  base: "http://numerical-methods-frontend.vercel.app",
   routes: [
     {
       path: "/numerical-methods-frontend.vercel.app/gaussElimination",

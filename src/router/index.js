@@ -6,12 +6,12 @@ const router = createRouter({
   base: "http://numerical-methods-frontend.vercel.app",
   routes: [
     {
-      path: "/numerical-methods-frontend.vercel.app/gaussElimination",
+      path: "/gaussElimination",
       name: "gaussElimination",
       component: () => import("../components/methods/GaussElimination.vue"),
     },
     {
-      path: "/numerical-methods-frontend.vercel.app/gaussJordan",
+      path: "/gaussJordan",
       name: "gaussJordan",
 
       component: () => import("../components/methods/Gauss-Jordan.vue"),
